@@ -1,0 +1,56 @@
+:root {
+    --color-dark: #000;
+    --color-light: #fff;
+    --color-green: #588947;
+    --color-blue: #0E51AF;
+    --color-light-pink: #EDA7C9;
+    --color-yellow: #EAA503;
+}
+
+body {
+    color: var(--color-dark);
+}
+
+h1 {
+    font-size: 40px;
+    color: var(--color-blue);
+    font-weight: 10px;
+}
+
+h2{
+    font-size: 27px;
+}
+
+.bomb {
+    margin-bottom: 15px;
+}
+
+.bg-menu {
+    background-color: var(--color-yellow);
+    margin-top: auto;
+    color: var(--color-green);
+}
+
+.logo-menu {
+    font-size: 27px;
+    color: var(--color-dark);
+    font-weight: 450;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.nav-link:hover {
+    color: var(--color-blue);
+}
+
+.section-one {
+    margin-left: 3vh;
+    
+}
