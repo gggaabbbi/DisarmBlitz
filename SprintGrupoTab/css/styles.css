@@ -5,10 +5,14 @@
     --color-blue: #0E51AF;
     --color-light-pink: #EDA7C9;
     --color-yellow: #EAA503;
+    --font-title: 'Rye', cursive;
+    --font-body: 'Reem Kufi Fun', sans-serif;
 }
 
 body {
     color: var(--color-dark);
+    padding: 90px;
+    font-family: var(--font-body);
 }
 
 h1 {
@@ -18,17 +22,29 @@ h1 {
 }
 
 h2{
-    font-size: 27px;
+    font-size: 30px;
+    font-weight: 10px;
+    font-family: var(--font-title);
 }
 
 .bomb {
     margin-bottom: 15px;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.text-menu {
+    font-family: var(--font-title);
+    margin-bottom: 30px;
+}
+
 .bg-menu {
     background-color: var(--color-yellow);
     margin-top: auto;
-    color: var(--color-green);
 }
 
 .logo-menu {
@@ -52,5 +68,28 @@ h2{
 
 .section-one {
     margin-left: 3vh;
-    
+}
+
+p {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.text-body {
+    font-size: 20px;
+}
+
+.perfil-img {
+    height: 280px;
+    border-radius: 150px;
+}
+
+.container-bg {
+    background-color: var(--color-light-pink);
+    color: var(--color-dark);
+    width: 100%;
+}
+
+.caroussel-img {
+    border-radius: 50px;
 }
