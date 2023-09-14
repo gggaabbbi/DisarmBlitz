@@ -96,7 +96,7 @@ p {
 .container-bg {
     border: solid;
     padding: 10px;
-    border-color: var(--color-light-pink);
+    border-color: var(--color-blue);
 }
 
 .caroussel-img {
