@@ -35,6 +35,10 @@ h2{
     font-family: var(--font-title);
 }
 
+h3 {
+    color: var(--color-green);
+}
+
 .bomb {
     margin-bottom: 15px;
 }
@@ -101,4 +105,8 @@ p {
 
 .caroussel-img {
     border-radius: 50px;
+}
+
+.personagem-img {
+    width: 280px;
 }
