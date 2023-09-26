@@ -1,11 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    width: auto;
-    margin-left: 0;
-    margin-right: 0;
-}
-
 :root {
     --color-dark: #000;
     --color-light: #fff;
@@ -19,7 +11,6 @@
 
 body {
     color: var(--color-dark);
-    padding: 90px;
     font-family: var(--font-body);
 }
 
@@ -55,6 +46,12 @@ header {
     margin-bottom: 30px;
 }
 
+.mg-tx {
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: 100px;
+}
+
 .bg-menu {
     background-color: var(--color-yellow);
     margin-top: auto;
@@ -73,6 +70,7 @@ header {
 .nav-link {
     font-weight: 600;
     font-size: 17px;
+    color: var(--color-dark);
 }
 
 .nav-link:hover {
@@ -109,4 +107,22 @@ p {
 
 .personagem-img {
     width: 280px;
+}
+
+.button {
+    justify-content: center;
+    margin-left: 100px;
+    color: var(--color-light);
+    background-color: var(--color-blue);
+}
+
+footer {
+    color: var(--color-dark);
+    background-color: var(--color-yellow);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.img-footer {
+    width: 75px;
 }
