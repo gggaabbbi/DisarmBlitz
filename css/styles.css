@@ -106,7 +106,8 @@ p {
 }
 
 .personagem-img {
-    width: 280px;
+    width: 110px;
+    margin-left: 30vh;
 }
 
 .button {
@@ -114,6 +115,13 @@ p {
     margin-left: 100px;
     color: var(--color-light);
     background-color: var(--color-blue);
+}
+
+.footer-btn {
+    justify-content: center;
+    margin-left: 100px;
+    color: var(--color-dark);
+    background-color: #c78c03;
 }
 
 footer {
