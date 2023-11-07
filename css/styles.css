@@ -54,7 +54,7 @@ header {
 
 .bg-menu {
     background-color: var(--color-yellow);
-    height: 9vh;
+    height: 100px;
 }
 
 .logo-menu {
